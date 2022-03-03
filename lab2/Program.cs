@@ -7,7 +7,7 @@
             try
             {
                 RomanNumber n1 = new RomanNumber(11);
-                RomanNumber n2 = new RomanNumber(5);
+                RomanNumber n2 = new RomanNumber(500);
                 RomanNumber n3 = new RomanNumber(22);
                 RomanNumber[] mas = { n1, n2, n3 };
                 Console.WriteLine($"Числа для арифметических операций: {n1.Clone().ToString()} , {n2.Clone().ToString()} .\n");
